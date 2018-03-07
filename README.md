@@ -1,3 +1,11 @@
+##Firebase Authentication
+
+- Author: Kyle Ryan
+
+- Description: Create your own Firebase project (its free and easy) and click "Add Firebase to your web app". Then drop the provided key into the top part of App.js. Don't forget to install Firebase.
+
+#
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
