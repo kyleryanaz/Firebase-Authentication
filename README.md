@@ -1,4 +1,4 @@
-##Firebase Authentication
+#Firebase Authentication
 
 - Author: Kyle Ryan
 

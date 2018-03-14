@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Firebase Login</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div id="login_div" class="main-div">
+        <h3>Firebase Web Login Example</h3>
+        <input type="email" placeholder="Email..." id="email_field" />
+        <input type="password" placeholder="Password..." id="password_field" />
+
+        <button onclick="login()">Login</button>
+    </div>
+
+    <div id="user_div" class="loggedin-div">
+        <h3>Welcome User</h3>
+        <p id="user_para">Welcome to Firebase web login. You are currently logged in.</p>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+
+
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "",
+            authDomain: "",
+            databaseURL: "",
+            projectId: "",
+            storageBucket: "",
+            messagingSenderId: ""
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
